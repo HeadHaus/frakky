@@ -1,0 +1,42 @@
+<root path="D:\HeadHaus\frakky\test\MyLibrary">
+	<id>MyLibrary</id>
+<directory name="include">
+<directory name="Graphics">
+<directory name="Buffers">
+<directory name="Hardware">
+<file name="IndexBuffer.h" />
+<file name="VertexBuffer.h" />
+</directory>
+<file name="Buffer.h" />
+</directory>
+<directory name="Shaders">
+<file name="deferredlighting.hlsl" />
+<file name="motionblur.hlsl" />
+<file name="shadows.hlsl" />
+</directory>
+<file name="CubeMap.h" />
+<file name="Engine.h" />
+<file name="RenderContext.h" />
+<file name="Scheduler.h" />
+</directory>
+<directory name="Math">
+<directory name="Geometry">
+<file name="Frustum.h" />
+<file name="Plane.h" />
+<file name="Sphere.h" />
+</directory>
+<file name="Matrix.h" />
+<file name="Quaternion.h" />
+<file name="Vector.h" />
+</directory>
+<directory name="UnitTests">
+<directory name="Graphics">
+<file name="SanityTest_Graphics.h" />
+<file name="SmokeTest_Graphics.h" />
+</directory>
+<directory name="Math">
+<file name="TestMath.h" />
+</directory>
+</directory>
+</directory>
+</root>

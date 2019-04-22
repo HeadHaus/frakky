@@ -1,0 +1,3 @@
+include README.md
+include frakky/plugins/default/json/templates/*.template
+include frakky/plugins/default/xml/templates/*.template

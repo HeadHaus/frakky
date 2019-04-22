@@ -1,0 +1,9 @@
+<root path="{{ root.full_path }}">
+	<id>{{ root.name }}</id>
+{% for directory in root.subdirectories %}
+{% include "directory.xml" %}
+{% endfor %}
+{% for file in root.files %}
+{% include "file.xml" %}
+{% endfor %}
+</root>

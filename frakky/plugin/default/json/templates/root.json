@@ -1,0 +1,13 @@
+{% macro render_files() %}
+{% for file in root.all_files %}
+{% include "file.json" %}{{ "," if not loop.last }}
+{% endfor %}
+{% endmacro %}
+{
+	"root": {
+		"id": "{{ root.name }}",
+		"files": [
+			{{ render_files()|indent(12) }}
+		]
+	}
+}

@@ -1,0 +1,8 @@
+<directory name="{{ directory.name }}">
+{% for directory in directory.subdirectories %}
+{% include "directory.xml" %}
+{% endfor %}
+{% for file in directory.files -%}
+{% include "file.xml" %}
+{% endfor %}
+</directory>
